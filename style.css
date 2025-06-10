@@ -1,8 +1,9 @@
 .main-header{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 45px;
+    }
 
 body{
-background-color: green;
+background-color: #4ede49;
 }
