@@ -1,9 +1,33 @@
-.main-header{
-    text-align: center;
-    color: white;
-    font-size: 45px;
-    }
+.banner{
+height: 150px;
+width: 100%;
+object-fit: cover;
+}
 
-body{
-background-color: #4ede49;
+.navheadings{
+background-color: black;
+color: white;
+padding: 5px;
+margin: 5px
+text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: black
+}
+
+a:visited {
+  text-decoration: none;
+  background-color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: green;
+}
+
+a:active {
+  text-decoration: none;
+  background-color: green;
 }
