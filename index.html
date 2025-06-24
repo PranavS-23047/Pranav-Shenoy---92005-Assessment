@@ -18,59 +18,33 @@
 <a class="navheadings" href="page4.html">Simulation</a>
 <a class="navheadings" href="page5.html">Speak Your Mind</a>
 <br>
-<h1>Biodiversity as a whole</h1>
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 6</div>
-    <img src="Slideshow1.jpg" style="width:100%">
-    <div class="text">Soil Erosion/div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 6</div>
-    <img src="Slideshow2.jpg" style="width:100%">
-    <div class="text">Fast Floods</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 6</div>
-    <img src="Slideshow3.jpg" style="width:100%">
-    <div class="text">Deforestation</div>
-  </div>
-
-    <div class="mySlides fade">
-    <div class="numbertext">4 / 6</div>
-    <img src="Slideshow4.webp" style="width:100%">
-    <div class="text">Rising Sea Levels</div>
-  </div>
-
-    <div class="mySlides fade">
-    <div class="numbertext">5 / 6</div>
-    <img src="Slideshow5.jpg" style="width:100%">
-    <div class="text">Animal Extinction</div>
-  </div>
-
-    <div class="mySlides fade">
-    <div class="numbertext">6 / 6</div>
-    <img src="Slideshow6.jpg" style="width:100%">
-    <div class="text">Pollution</div>
-  </div>
-
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
 <br>
+<div class="Gallery" style="max-width:500px">
 
+            <img class="mySlides" src="images/Slideshow1.jpg" style="height:300px">
+            <img class="mySlides" src="images/Slideshow2.jpg" style="height:300px">
+            <img class="mySlides" src="images/Slideshow3.jpg" style="height:300px">
+            <img class="mySlides" src="images/Slideshow4.webp" style="height:300px">
+            <img class="mySlides" src="images/Slideshow5.jpg" style="height:300px">
+            <img class="mySlides" src="images/Slideshow6.jpg" style="height:300px">
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
 </div>
-</body>
-</html>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");  <!--Code for switching images every 10 seconds-->
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+         myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+           x[myIndex-1].style.display = "block";
+             setTimeout(carousel, 5000); // Change image every 5 seconds
+              }
+</script>
+<h1>Biodiversity as a whole</h1>
+<p>Biodiversity is a serious issue which is immensely affecting the greater part of New Zealand. </p>
