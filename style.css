@@ -34,10 +34,13 @@ a:active {
 
 .footer{
 border: 1px solid black;
-align-center;
-
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding: 5px;
 }
 
-.contactinfo{
-
+.footerheading{
+font-family: "Times New Roman", Times, serif;
 }
