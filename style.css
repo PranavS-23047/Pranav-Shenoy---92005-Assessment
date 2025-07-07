@@ -12,22 +12,22 @@ margin: 10px
 text-align: center;
 }
 
-a:link {
+navheadings:link {
   text-decoration: none;
   background-color: black
 }
 
-a:visited {
+navheadings:visited {
   text-decoration: none;
   background-color: black;
 }
 
-a:hover {
+navheadings:hover {
   text-decoration: none;
   background-color: green;
 }
 
-a:active {
+navheadings:active {
   text-decoration: none;
   background-color: green;
 }
@@ -43,4 +43,12 @@ padding: 5px;
 
 .footerheading{
 font-family: "Times New Roman", Times, serif;
+}
+
+.logo{
+height: 70px;
+right: 0;
+bottom: 0;
+padding: 5px;
+position: fixed;
 }
