@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Assessment Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="slide.js">
-</script>
+  <meta charset="UTF-8">
+  <title>Assessment Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<img class="banner" src="images/webbanner.jpg">
-<br>
-<br>
-<a class="navheadings" href="index.html">Home</a>
-<a class="navheadings" href="page2.html">Problems</a>
-<a class="navheadings" href="page3.html">Solutions</a>
-<a class="navheadings" href="page4.html">Simulation</a>
-<a class="navheadings" href="page5.html">Speak Your Mind</a>
-<br>
-<br>
-<div class="Gallery" style="max-width:500px">
 
-            <img class="mySlides" src="images/Slideshow1.jpg" style="height:300px">
-            <img class="mySlides" src="images/Slideshow2.jpg" style="height:300px">
-            <img class="mySlides" src="images/Slideshow3.jpg" style="height:300px">
-            <img class="mySlides" src="images/Slideshow4.webp" style="height:300px">
-            <img class="mySlides" src="images/Slideshow5.jpg" style="height:300px">
-            <img class="mySlides" src="images/Slideshow6.jpg" style="height:300px">
-</div>
+  <img class="banner" src="images/webbanner.jpg" alt="Website banner">
 
+  <nav>
+    <a class="navheadings" href="index.html">Home</a>
+    <a class="navheadings" href="page2.html">Problems</a>
+    <a class="navheadings" href="page3.html">Solutions</a>
+    <a class="navheadings" href="page4.html">Simulation</a>
+    <a class="navheadings" href="page5.html">Speak Your Mind</a>
+  </nav>
 
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-var i;
-var x = document.getElementsByClassName("mySlides");  <!--Code for switching images every 10 seconds-->
-                        for (i = 0; i < x.length; i++) {
-                            x[i].style.display = "none";
-                        }
-         myIndex++;
-          if (myIndex > x.length) {myIndex = 1}
-           x[myIndex-1].style.display = "block";
-             setTimeout(carousel, 5000); // Change image every 5 seconds
-              }
-</script>
-
-<h2>Biodiversity as a whole</h2>
-<p>Biodiversity is a serious issue which is immensely affecting the greater part of New Zealand. From the shores of the oceans to the peaks of mountains we are constantly losing what makes us truly special. Our trees are dying, our animals are going extinct but what we should keep is our will to fight. Our will to fight for our land is going to be the guiding light back to restoring Aotearoa back to how it was then. Pristine and serene. In general, biodiversity is a term used to express the different varieties of life and how each form of life is special and meaningful. Now in that sense, biodiversity loss refers to the loss of the biodiversity. This is especially a big issue in our beautiful country of New Zealand. Despite our minimal presence on a map, we also suffer from major issues as such. In recent years we have been facing flash floods, deforestation, rising sea levels, extinction, soil erosion, pollution and much more. It may seem like these problems occur everywhere but here in New Zealand we are getting the worst of it. After one too many occurrences you just start to wonder, 'Is really a way to put an end to this madness?' New Zealand has gone through its fair share of biodiversity loss so we now have to recover and come back stronger.</p>
-
-
-
-<div id="footer" class="footer">
-<footer>
-  <p class="footerheading">Author: Pranav Shenoy<br>
-  <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjfsdjGqbKPgDKLNPssvbXbWlVZHSXTmtrsttfrBvJVftRqKwNBfJDgsJnxHxQFsgjfGrV">23047@students.mrgs.school.nz</a></p>
-  <img align="right" class="logo" src="images/weblogo.png">
-</footer>
+  <main>
+    <div class="Gallery" style="max-width:500px">
+      <img class="mySlides" src="images/Slideshow1.jpg" style="height:300px" alt="Slide 1">
+      <img class="mySlides" src="images/Slideshow2.jpg" style="height:300px" alt="Slide 2">
+      <img class="mySlides" src="images/Slideshow3.jpg" style="height:300px" alt="Slide 3">
+      <img class="mySlides" src="images/Slideshow4.webp" style="height:300px" alt="Slide 4">
+      <img class="mySlides" src="images/Slideshow5.jpg" style="height:300px" alt="Slide 5">
+      <img class="mySlides" src="images/Slideshow6.jpg" style="height:300px" alt="Slide 6">
     </div>
+
+    <h2>Biodiversity as a whole</h2>
+    <p>
+      Biodiversity is a serious issue which is immensely affecting the greater part of New Zealand. From the shores of the oceans to the peaks of mountains we are constantly losing what makes us truly special. Our trees are dying, our animals are going extinct but what we should keep is our will to fight. Our will to fight for our land is going to be the guiding light back to restoring Aotearoa back to how it was then. Pristine and serene. In general, biodiversity is a term used to express the different varieties of life and how each form of life is special and meaningful. Now in that sense, biodiversity loss refers to the loss of the biodiversity. This is especially a big issue in our beautiful country of New Zealand. Despite our minimal presence on a map, we also suffer from major issues as such. In recent years we have been facing flash floods, deforestation, rising sea levels, extinction, soil erosion, pollution and much more. It may seem like these problems occur everywhere but here in New Zealand we are getting the worst of it. After one too many occurrences you just start to wonder, 'Is really a way to put an end to this madness?' New Zealand has gone through its fair share of biodiversity loss so we now have to recover and come back stronger.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <p class="footerheading">Author: Pranav Shenoy<br>
+      <a href="mailto:23047@students.mrgs.school.nz">23047@students.mrgs.school.nz</a>
+    </p>
+    <img class="logo" src="images/weblogo.png" alt="Website logo">
+  </footer>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1; }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 5000); // Change image every 5 seconds
+    }
+  </script>
+
 </body>
 </html>
