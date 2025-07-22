@@ -56,6 +56,9 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .footerheading {
