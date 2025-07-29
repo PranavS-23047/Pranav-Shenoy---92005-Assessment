@@ -38,3 +38,7 @@ nav {
 .navheadings:active {
   background-color: green;
 }
+
+.firstinfo{
+padding: 20px;
+}
