@@ -60,3 +60,14 @@ nav {
   height: 70px;
   padding: 5px;
 }
+
+.text-center{
+text-align: center;
+}
+
+.sim{
+display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
