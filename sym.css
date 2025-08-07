@@ -1,4 +1,4 @@
-html, body {
+html, body { /* Format for page */
   height: 100%;
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@ html, body {
   flex-direction: column;
 }
 
-.banner {
+.banner { /* Banner image display */
   height: 200px;
   width: 100%;
   object-fit: cover;
 }
 
-.navbar {
+.navbar { /* Positioning and aligning the navbar */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -21,7 +21,7 @@ html, body {
   padding: 10px;
 }
 
-.navheadings {
+.navheadings { /* Styling the navbar */
   color: white;
   text-decoration: none;
   padding: 8px 12px;
@@ -30,16 +30,16 @@ html, body {
 }
 
 .navheadings:link,
-.navheadings:visited {
+.navheadings:visited { /* Styling the navbar depending on how it is interacted with */
   background-color: black;
 }
 
 .navheadings:hover,
-.navheadings:active {
+.navheadings:active { /* Styling the navbar depending on how it is interacted with */
   background-color: green;
 }
 
-.footer {
+.footer { /* Styles and places the footer */
   border-top: 1px solid black;
   background-color: #f2f2f2;
   width: 100%;
@@ -52,16 +52,16 @@ html, body {
   box-sizing: border-box;
 }
 
-.footerheading {
+.footerheading { /* Styling the font used on the text inside the footer */
   font-family: "Times New Roman", Times, serif;
 }
 
-.logo {
+.logo { /* Styling the image inside the footer */
   height: 70px;
   padding: 5px;
-}
+ }
 
-.infolinks {
+.infolinks { /* Positioning and aligning the information links */
   color: white;
   text-decoration: none;
   padding: 2px 12px;
@@ -70,22 +70,22 @@ html, body {
 }
 
 .infolinks:link,
-.infolinks:visited {
+.infolinks:visited { /* Styling the information links depending on how it is interacted with */
   background-color: black;
 }
 
 .infolinks:hover,
-.infolinks:active {
+.infolinks:active { /* Styling the information links depending on how it is interacted with */
   background-color: green;
 }
 
-h1{
+h1{ /* Aligns and positions the page header */
 text-align: center;
 margin-left: auto;
   margin-right: auto;
 }
 
-.ovrvwtext{
+.ovrvwtext{ /* Aligns, positions and sets font size for the small paragraph under the table */
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -93,35 +93,14 @@ font-size: 18px;
 }
 
 
-table, th, td {
+table, th, td { /* Positions table and adds solid, collapsed borders */
   border: 1px solid black;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
 }
-th, td {
+
+th, td { /* Sets padding and aligns the images and text inside the th and td tags */
   padding: 5px;
   text-align: center;
-}
-
-.footer {
-  border-top: 1px solid black;
-  background-color: #f2f2f2;
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
-
-.footerheading {
-  font-family: "Times New Roman", Times, serif;
-}
-
-.logo {
-  height: 70px;
-  padding: 5px;
 }
