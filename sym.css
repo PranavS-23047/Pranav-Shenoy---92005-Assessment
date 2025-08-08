@@ -4,6 +4,7 @@ html, body { /* Format for page */
   padding: 0;
   display: flex;
   flex-direction: column;
+  background-color: #E3735E;
 }
 
 .banner { /* Banner image display */
@@ -41,7 +42,7 @@ html, body { /* Format for page */
 
 .footer { /* Styles and places the footer */
   border-top: 1px solid black;
-  background-color: #f2f2f2;
+  flex: 1;
   width: 100%;
   padding: 10px;
   font-size: 14px;
@@ -50,6 +51,7 @@ html, body { /* Format for page */
   align-items: center;
   flex-wrap: wrap;
   box-sizing: border-box;
+  background-color: #C0B093;
 }
 
 .footerheading { /* Styling the font used on the text inside the footer */
@@ -89,7 +91,8 @@ margin-left: auto;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
-font-size: 18px;
+font-size: 19px;
+font-family: Optima, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 
 
@@ -103,4 +106,6 @@ table, th, td { /* Positions table and adds solid, collapsed borders */
 th, td { /* Sets padding and aligns the images and text inside the th and td tags */
   padding: 5px;
   text-align: center;
+  font-size: 17.5px;
+  font-family: Optima, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }

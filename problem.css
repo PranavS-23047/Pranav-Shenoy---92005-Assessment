@@ -4,6 +4,7 @@ html, body { /* Format for page */
   padding: 0;
   display: flex;
   flex-direction: column;
+  background-color: #E3735E;
 }
 
 .banner { /* Banner image display */
@@ -41,7 +42,7 @@ nav { /* Positioning and aligning the navbar */
 
 .footer { /* Styles and places the footer */
   border-top: 1px solid black;
-  background-color: #f2f2f2;
+  background-color: #C0B093;
   width: 100%;
   padding: 10px;
   font-size: 14px;
@@ -63,6 +64,8 @@ nav { /* Positioning and aligning the navbar */
 
 .firstinfo{ /* Sets padding for everything inside the class firstinfo */
 padding: 20px;
+font-size: 20px;
+font-family: Optima, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 
 .squareinfo{ /* Styles and places everything inside the class squareinfo */
@@ -73,6 +76,8 @@ padding: 20px;
   text-align: justify;
   text-justify: inter-word;
   gap: 10px;
+  font-size: 19px;
+  font-family: Optima, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 
 .video-container { /* Places and aligns videos */
